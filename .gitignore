@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+.env
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+book/node_modules/
+book/build/
+book/.docusaurus/
+book/docusaurus-plugin-openapi-docs/
+# Docusaurus specific ignores
+.cache/
+.docusaurus/
+.docusaurus_tmp/
+.eslintcache
+.prettiercache
+public/
+yarn-error.log
+.yarn/

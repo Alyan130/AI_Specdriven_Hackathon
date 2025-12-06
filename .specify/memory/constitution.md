@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# SDD Book Publishing Constitution
+
+## Role: Senior Systems Architect
+
+## Global Format Structure
+
+## The Book Layout Protocol
+
+- Sidebar is persistent
+- Modules (parents) = collapsible accordions
+- Chapters (children) = pages rendered on click
+
+## Explicit Hierarchy Rules
+
+- Modules = noun-based domain names
+- Chapters = action/specific names
+- No orphan chapters
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Structural Integrity
+All components must maintain structural soundness, ensuring robust and predictable behavior across the system.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Modular Isolation
+Each module must be self-contained and operate independently, minimizing interdependencies and facilitating easier maintenance and updates.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Scalability First
+Architectural decisions prioritize scalability to accommodate future growth and increased demand without significant re-architecture.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
-
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
-
-### [PRINCIPLE_6_NAME]
-
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### IV. UX Consistency
+User experience must be consistent across all interfaces, adhering to established design guidelines and interaction patterns.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- Constitution is highest authority
+- Structural changes need Architect approval
+- PRs violating hierarchy must be rejected
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.2.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-06
+
+## Technical Requirements & Grounding
+
+### I. Mandatory Search Rule (Grounding)
+
+All content generation (for Chapters and Module documentation) must be grounded using the provided `context7` MCP server. The content retrieval must be strictly scoped to the Docusaurus documentation library with the specific Library ID: `/websites/docusaurus_io`.
+
+## Design System & Theming
+
+### I. Mandatory Color Palette
+
+The entire documentation platform (using a Docusaurus/Sidebar layout) must strictly adhere to the following color palette:
+
+- Primary Color: `#000000` (Black)
+- Secondary Color: `#5DADE2` (Light blue)
+

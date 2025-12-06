@@ -1,0 +1,56 @@
+graph TD
+    A[Start Your Coding Journey] --> B{Current Level?}
+    
+    B -->|Complete Beginner| C[Foundations Phase<br/>2-3 months]
+    B -->|Some Experience| D[Intermediate Phase<br/>3-4 months]
+    B -->|Intermediate| E[Advanced Phase<br/>4-6 months]
+    
+    C --> C1[Learn Programming Basics]
+    C1 --> C2[Choose: Python or JavaScript]
+    C2 --> C3[Variables, Data Types, Loops]
+    C3 --> C4[Functions & Control Flow]
+    C4 --> C5[Build Simple Projects<br/>Calculator, To-Do List]
+    
+    C5 --> F[Skills Checkpoint]
+    D --> F
+    
+    F --> G[Core Development Skills<br/>3-4 months]
+    G --> G1[Version Control: Git & GitHub]
+    G1 --> G2[Data Structures & Algorithms]
+    G2 --> G3{Choose Path}
+    
+    G3 -->|Web Development| H[Frontend Track]
+    G3 -->|Data/Analysis| I[Data Track]
+    G3 -->|Software Engineering| J[Backend Track]
+    
+    H --> H1[HTML/CSS Mastery]
+    H1 --> H2[JavaScript Deep Dive]
+    H2 --> H3[React or Vue.js]
+    H3 --> H4[Build Portfolio Projects]
+    
+    I --> I1[Python Advanced]
+    I1 --> I2[Pandas, NumPy, Matplotlib]
+    I2 --> I3[SQL & Databases]
+    I3 --> I4[Data Analysis Projects]
+    
+    J --> J1[Backend Language<br/>Python/Node/Java]
+    J1 --> J2[APIs & RESTful Services]
+    J2 --> J3[Databases & SQL]
+    J3 --> J4[System Design Basics]
+    
+    H4 --> K[Professional Development]
+    I4 --> K
+    J4 --> K
+    E --> K
+    
+    K --> K1[Build Public Portfolio]
+    K1 --> K2[Contribute to Open Source]
+    K2 --> K3[Network & Job Prep]
+    K3 --> K4[Apply & Interview]
+    
+    K4 --> L[🎯 Goal Achieved!]
+    
+    style A fill:#e1f5e1
+    style L fill:#ffe1e1
+    style F fill:#fff4e1
+    style K fill:#e1f0ff
