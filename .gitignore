@@ -21,3 +21,10 @@ book/docusaurus-plugin-openapi-docs/
 public/
 yarn-error.log
 .yarn/
+
+# Python specific ignores
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
