@@ -103,7 +103,7 @@ graph TD
 * USD (Universal Scene Description) format
 * Importing robots and environments
 
-[Go to Chapter 1 →](/docs/module3/chapter1)
+[Go to Chapter 1 →](/docs/module3/module3-chapter1)
 
 ---
 
@@ -115,7 +115,7 @@ graph TD
 * Stereo depth processing
 * Object detection with DNN inference
 
-[Go to Chapter 2 →](/docs/module3/chapter2)
+[Go to Chapter 2 →](/docs/module3/module3-chapter2)
 
 ---
 
@@ -127,7 +127,7 @@ graph TD
 * Sim-to-real transfer strategies
 * Deploying trained models to hardware
 
-[Go to Chapter 3 →](/docs/module3/chapter3)
+[Go to Chapter 3 →](/docs/module3/module3-chapter3)
 
 ---
 

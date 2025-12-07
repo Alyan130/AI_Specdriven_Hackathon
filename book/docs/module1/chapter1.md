@@ -318,4 +318,4 @@ Find and summarize one academic paper on sim-to-real transfer for robotic manipu
 
 ---
 
-**Next**: [Chapter 2 - ROS 2 Fundamentals →](/docs/module1/chapter2)
+**Next**: [Chapter 2 - ROS 2 Fundamentals →](/docs/module1/module1-chapter2)

@@ -545,4 +545,4 @@ free -h
 
 ---
 
-**Next**: [Chapter 3 - Reinforcement Learning and Sim-to-Real →](/docs/module3/chapter3)
+**Next**: [Chapter 3 - Reinforcement Learning and Sim-to-Real →](/docs/module3/module3-chapter3)

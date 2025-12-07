@@ -8,15 +8,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://physical-ai-course.com', 
-  baseUrl: '/',
+  url: 'https://Alyan130.github.io', 
+  baseUrl: '/AI_Specdriven_Hackathon/',
 
   // GitHub pages deployment config.
-  organizationName: 'physical-ai-lab', // Usually your GitHub org/user name.
-  projectName: 'humanoid-robotics-course', // Usually your repo name.
+  organizationName: 'Alyan130', // Usually your GitHub org/user name.
+  projectName: 'AI_Specdriven_Hackathon', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash:false,
 
   // Enable Mermaid for diagrams
   markdown: {
