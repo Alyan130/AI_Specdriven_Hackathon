@@ -1,10 +1,10 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import Response, StreamingResponse
 from chatkit.server import ChatKitServer, ThreadStreamEvent, StreamingResult
-from chatkit.models import UserMessageItem, ThreadMetadata
-from chatkit.stores import Store # Assuming a simple in-memory store for now
+from chatkit.types import UserMessageItem, ThreadMetadata
+from chatkit.stores import Store # Corrected import
 from chatkit.agents import AgentContext, stream_agent_response
-from agents import Runner, simple_to_agent_input
+from agents import Runner, simple_`to_agent_input
 from typing import Any, AsyncIterator
 import uvicorn
 
