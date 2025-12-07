@@ -13,14 +13,17 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          {/* Ensure your docusaurus.config.js title is set to "Physical AI" */}
+          {siteConfig.title} 
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          Bridging the gap between digital brains and physical bodies.
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/module1/overview">
+            Start Module 1: The Nervous System 
           </Link>
         </div>
       </div>
@@ -32,8 +35,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Course: ${siteConfig.title}`}
+      description="Master Physical AI, ROS 2, and Humanoid Robotics">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

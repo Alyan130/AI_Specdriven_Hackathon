@@ -549,4 +549,4 @@ Create a complete robotic system:
 
 ---
 
-**Next**: [Chapter 3 - Advanced ROS 2 Concepts →](/docs/module1/chapter3)
+**Next**: [Chapter 3 - Advanced ROS 2 Concepts →](/docs/module1/module1-chapter3)

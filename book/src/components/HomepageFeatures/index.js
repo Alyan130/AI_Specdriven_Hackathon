@@ -4,43 +4,42 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'The Nervous System (ROS 2)',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Master the middleware of robotics. Learn nodes, topics, and services 
+        to bridge Python AI agents to real-world hardware controllers 
+        using <code>rclpy</code> and URDF.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'The Digital Twin (Isaac Sim)',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Train before you deploy. Build photorealistic physics simulations 
+        in NVIDIA Isaac Sim & Gazebo to test gravity, collisions, and 
+        sensors without breaking hardware.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'The AI Brain (VLA)',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The convergence of LLMs and Robotics. Implement Vision-Language-Action 
+        models to translate natural language commands into complex 
+        humanoid movements.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+// Removed 'Svg' from props
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+      {/* Removed the div containing the Svg tag */}
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

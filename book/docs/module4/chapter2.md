@@ -666,4 +666,4 @@ class ConfirmationDialog:
 
 ---
 
-**Next**: [Chapter 3 - Capstone Project: The Autonomous Humanoid →](/docs/module4/chapter3)
+**Next**: [Chapter 3 - Capstone Project: The Autonomous Humanoid →](/docs/module4/module4-chapter3)

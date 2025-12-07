@@ -76,7 +76,7 @@ Simulations simplify:
 * Sensor simulation (cameras, LIDAR, IMU)
 * Integration with ROS 2
 
-[Go to Chapter 1 →](/docs/module2/chapter1)
+[Go to Chapter 1 →](/docs/module2/module2-chapter1)
 
 ---
 
@@ -88,7 +88,7 @@ Simulations simplify:
 * Camera and lighting systems
 * Unity-ROS 2 integration
 
-[Go to Chapter 2 →](/docs/module2/chapter2)
+[Go to Chapter 2 →](/docs/module2/module2-chapter2)
 
 ---
 
