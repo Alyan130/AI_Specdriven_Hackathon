@@ -9,7 +9,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://Alyan130.github.io', 
-  baseUrl: '/AI_Specdriven_Hackathon/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'Alyan130', // Usually your GitHub org/user name.
