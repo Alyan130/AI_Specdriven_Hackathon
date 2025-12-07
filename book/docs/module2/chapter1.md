@@ -629,4 +629,4 @@ Test different physics engines:
 
 ---
 
-**Next**: [Chapter 2 - High-Fidelity Rendering with Unity →](/docs/module2/chapter2)
+**Next**: [Chapter 2 - High-Fidelity Rendering with Unity →](/docs/module2/module2-chapter2)

@@ -82,7 +82,7 @@ graph LR
 * Full-body motion planning
 * Natural human-robot interaction
 
-[Go to Chapter 1 →](/docs/module4/chapter1)
+[Go to Chapter 1 →](/docs/module4/module4-chapter1)
 
 ---
 
@@ -94,7 +94,7 @@ graph LR
 * Multi-modal interaction design
 * Safety and error handling
 
-[Go to Chapter 2 →](/docs/module4/chapter2)
+[Go to Chapter 2 →](/docs/module4/module4-chapter2)
 
 ---
 
@@ -106,7 +106,7 @@ graph LR
 * Real-world testing
 * Performance evaluation
 
-[Go to Chapter 3 →](/docs/module4/chapter3)
+[Go to Chapter 3 →](/docs/module4/module4-chapter3)
 
 ---
 

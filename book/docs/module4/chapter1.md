@@ -536,4 +536,4 @@ class ProxemicsController:
 
 ---
 
-**Next**: [Chapter 2 - Conversational Robotics with LLMs →](/docs/module4/chapter2)
+**Next**: [Chapter 2 - Conversational Robotics with LLMs →](/docs/module4/module4-chapter2)

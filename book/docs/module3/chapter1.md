@@ -592,4 +592,4 @@ ros2 node list
 
 ---
 
-**Next**: [Chapter 2 - AI-Powered Perception and Navigation →](/docs/module3/chapter2)
+**Next**: [Chapter 2 - AI-Powered Perception and Navigation →](/docs/module3/module3-chapter2)

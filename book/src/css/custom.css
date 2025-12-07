@@ -4,27 +4,77 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Import Inter font for a clean, modern look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Brand Color: #2586c2 (Cerulean Blue)
+     I generated a proper palette so hover states work correctly.
+  */
+  --ifm-color-primary: #2586c2;
+  --ifm-color-primary-dark: #2178af;
+  --ifm-color-primary-darker: #1f71a5;
+  --ifm-color-primary-darkest: #1a5d88;
+  --ifm-color-primary-light: #4aa3d9;
+  --ifm-color-primary-lighter: #5cb1e4;
+  --ifm-color-primary-lightest: #8bccf6;
+  
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Modern Font Stack */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode Overrides */
 [data-theme='dark'] {
   --ifm-color-primary: #2586c2;
-  --ifm-color-primary-dark: #2586c2;;
-  --ifm-color-primary-darker: #2586c2;;
-  --ifm-color-primary-darkest: #2586c2;;
-  --ifm-color-primary-light: #2586c2;;
-  --ifm-color-primary-lighter: #2586c2;;
-  --ifm-color-primary-lightest: #2586c2;;
-  --docusaurus-highlighted-code-line-bg: rgb(0, 0, 0);
+  --ifm-color-primary-dark: #2178af;
+  --ifm-color-primary-darker: #1f71a5;
+  --ifm-color-primary-darkest: #1a5d88;
+  --ifm-color-primary-light: #4aa3d9;
+  --ifm-color-primary-lighter: #5cb1e4;
+  --ifm-color-primary-lightest: #8bccf6;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  --ifm-background-color: #0f1117; /* Deeper black/blue background for tech feel */
+}
+
+/* Make the Hero banner look impressive */
+.hero {
+  background: linear-gradient(135deg, #0f1117 0%, #1a2a3a 100%);
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(to right, #4aa3d9, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glassmorphism effect for the Navbar */
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: rgba(15, 17, 23, 0.85);
+  border-bottom: 1px solid #2a3b4c;
+}
+
+/* Card Styling for Features */
+.card {
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-theme='dark'] .card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
 }
