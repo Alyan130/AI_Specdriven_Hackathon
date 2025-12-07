@@ -1,5 +1,6 @@
 import os
-import qdrant_client
+# Correct import for Qdrant client
+from qdrant_client import QdrantClient
 import google.generativeai as genai
 from dotenv import load_dotenv
 from agents import function_tool # Import function_tool for agent integration
@@ -7,7 +8,7 @@ from agents import function_tool # Import function_tool for agent integration
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-qdrant_client_instance = qdrant_client.QdrantClient(
+qdrant_client_instance = QdrantClient(
     url=os.getenv("QDRAUNT_DB_URL"),
     api_key=os.getenv("QDRAUNT_API_KEY")
 )
