@@ -23,10 +23,14 @@ async def root():
 @app.post("/chat-agent",response_model=ChatResponse)
 async def chat_agent(chat_request: ChatRequest):
      try:
-      result =  await run_agent(chat_request.sesson_id,chat_request.message)
+      print("chat_request",chat_request.model_dump())
+      result =  await run_agent(chat_request.session_id,chat_request.message)
       return {"response": result}
      except Exception as e:
+        print(e)
         raise HTTPException(status_code=500, detail=str(e))
      
 
-
+if __name__=="__main__": 
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
